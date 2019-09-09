@@ -1,0 +1,27 @@
+{
+  "name": "soundwave",
+  "version": "1.0.0",
+  "description": "static site from design to code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agw76638/soundwave.git"
+  },
+  "author": "agw76638",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agw76638/soundwave/issues"
+  },
+  "homepage": "https://github.com/agw76638/soundwave#readme",
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "dependencies": {
+    "prettier-eslint": "^9.0.0"
+  }
+}
