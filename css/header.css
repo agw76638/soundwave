@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .header {
   display: flex;
   width: 90%;
@@ -13,6 +19,7 @@
 
 .header__logo {
   align-items: center;
+  cursor: pointer;
 }
 
 .header__logo__name {
@@ -24,6 +31,7 @@
 .header__nav {
   margin-left: auto;
   margin-right: 10%;
+  width: 25%;
 }
 
 .header__nav-links {
@@ -36,4 +44,5 @@
   text-decoration: none;
   color: white;
   font-size: 24px;
+  cursor: pointer;
 }

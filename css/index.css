@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #2f3038;
+  overflow: hidden;
+}
+
+main {
+  width: 90%;
+  height: 90vh;
+  margin: auto;
+}
+
+.intro {
+  display: flex;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.intro__cover {
+  flex: 1;
+  height: 80vh;
+  margin-top: auto;
+}
+.intro__cover img {
+  height: 100%;
+}
+
+.intro__text {
+  color: white;
+  align-self: center;
+  flex: 1;
+}
+.intro__text h1 {
+  font-size: 72px;
+  margin-bottom: 20px;
+}
+.intro__text p {
+  font-size: 36px;
+}
+.intro__text button {
+  font-family: "Poppins", sans-serif;
+  background: #1762a7;
+  color: white;
+  border: none;
+  cursor: pointer;
+  height: 70px;
+  width: 160px;
+  margin-top: 80px;
+  border-radius: 10%;
+}
+
+.circle1 {
+  position: absolute;
+  z-index: -1;
+  background: #bc3a80;
+  height: 340px;
+  width: 340px;
+  border-radius: 50%;
+  opacity: 0.1;
+  bottom: 80px;
+  left: 35px;
+}
+.circle2 {
+  position: absolute;
+  z-index: -1;
+  background: #1752a7;
+  height: 240px;
+  width: 240px;
+  border-radius: 50%;
+  opacity: 0.1;
+  top: 100px;
+  left: 450px;
+}
+.circle3 {
+  position: absolute;
+  z-index: -1;
+  background: #1752a7;
+  height: 550px;
+  width: 550px;
+  border-radius: 50%;
+  opacity: 0.1;
+  bottom: -200px;
+  right: -200px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    flex-direction: column;
+  }
+}
