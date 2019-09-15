@@ -7,3 +7,57 @@
 body {
   background: #2f3038;
 }
+
+main {
+  width: 90%;
+  height: 80vh;
+  margin: auto;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.intro__text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  color: white;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+.intro__text h1 {
+  font-size: 72px;
+}
+
+.intro__text p {
+  font-size: 36px;
+}
+
+.intro__text__buttons {
+  display: flex;
+}
+
+.intro__text__button {
+  width: 150px;
+  height: 170px;
+  background: #202027;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 24px;
+  color: white;
+  border: none;
+  margin-right: 20px;
+}
+
+.intro__cover {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
