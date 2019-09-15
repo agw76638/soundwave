@@ -53,6 +53,7 @@ main {
   color: white;
   border: none;
   margin-right: 20px;
+  cursor: pointer;
 }
 
 .intro__cover {
